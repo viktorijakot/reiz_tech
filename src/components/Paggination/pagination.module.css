@@ -1,0 +1,17 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .selectRowPerPage {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: var(--spacing-s);
+  }
+  
+  .buttons {
+    display: flex;
+    gap: var(--spacing-s)
+  }
