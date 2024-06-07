@@ -1,5 +1,7 @@
 import { Country } from "../hooks/useCountriesData";
 
+export const LITHUANIA_AREA = 65300
+
 export const sortCountries = (array: Country[], isDescending: boolean) =>
     array
       .slice()
