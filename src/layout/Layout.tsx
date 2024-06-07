@@ -5,6 +5,7 @@ import useCountriesData from "../hooks/useCountriesData";
 import styles from "./layout.module.css";
 import Pagination from "../components/Paggination/Pagination";
 import {
+  LITHUANIA_AREA,
   displayCountriesWithPagination,
   rowsPerPageOptions,
   sortCountries,
@@ -23,7 +24,7 @@ export default function Layout() {
     () =>
       countriesData?.filter((countryData) => {
         if (selectedFilter === "area") {
-          return countryData.area < 65300;
+          return countryData.area < LITHUANIA_AREA;
         }
         if (selectedFilter === "oceania") {
           return countryData.region.toLocaleLowerCase() === "oceania";
