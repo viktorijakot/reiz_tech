@@ -2,16 +2,16 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-  }
+}
   
-  .selectRowPerPage {
+.selectRowPerPage {
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding-left: var(--spacing-s);
-  }
+}
   
-  .buttons {
+.buttons {
     display: flex;
     gap: var(--spacing-s)
-  }
+}
