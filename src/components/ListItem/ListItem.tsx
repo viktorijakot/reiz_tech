@@ -10,10 +10,12 @@ export default function ListItem({ item }: ListItemProps) {
 
   return (
     <div className={styles.container}>
-      <span>{name}</span>
-      <span>{region}</span>
-      <span>{area}</span>
-      <span>{independent}</span>
+      <span>Country: {name}</span>
+      <span>Region: {region}</span>
+      <span>
+        Area: {area} m<sup>2</sup>
+      </span>
+      <span>{independent ? "Independant" : "Not independant"}</span>
     </div>
   );
 }
